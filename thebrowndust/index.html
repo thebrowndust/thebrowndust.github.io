@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="browndust.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Lato&family=Montserrat:wght@500&display=swap" 
+       rel="stylesheet">
+  
+    <script src="https://kit.fontawesome.com/6097cb859d.js" crossorigin="anonymous"></script>
+    <title>TheBrownDust</title>
+</head>
+<body>
+    <section id="bg">
+    <header id="header">  
+        <nav>    
+            <ul id="nav-bar">
+                <li><img id="icon" src="./browndust/browndusticon.jpeg" ></li>
+                <li><a href="">Home</a></li>
+                <li><a href="#pr">Products</a></li>
+                <li><a href="#footer">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="heros">
+    <section id="hero">
+        <div class="hero container">
+            <div id="set">
+                <h1>The<span></span></h1> 
+                <h1>Brown Dust<span></span></h1>
+                <p id="p">Hey there! if you are looking to 
+                  have a perfect cake you are at the right place,
+                  Once you have a Glance you cant go without ordering them :) 
+                     Stay Happy and Healthy.
+                </p> 
+            </div> 
+            <div>          
+            <img src="./browndust/greencake1.png" class="baseimage"></div>
+        </div> 
+    </section> 
+     <div id="bgcolor"></div>
+    </div>
+  </section>
+  <section class="products name" id="pr">
+    <div class="row row-2">
+        <h2>Products</h2>
+    </div>
+    <section>
+        <h4>Sort By :</h4> 
+    <ul>
+        <li class="list active" data-filter="all" class="active">All</a></li>
+        <li class="list" data-filter="Jarsbr">Jars and browines</li>
+        <li class="list" data-filter="Cakes">Cakes</li>
+        <li class="list" data-filter="Others">Others</li>     
+    </ul>
+
+
+
+
+               <!--doubt here -->
+    <div class="row" id="items"> 
+      <div class="column" id="column-1" data-item="Others">
+          <!--on clicking the image it should redirect to the details of products.html
+           but its showing the complete details not only the particular cake 
+           <a onclick="funcu(0)" href="products.html">     -->
+            <img onclick="funcu(0)" class="im" src="./browndust/cakesicle.jpeg">
+        <h5>Cake sicle</h5>  
+        <p>Rs.800/kg</p>
+      </div>
+      <div class="column" id="column-2" data-item="Cakes">
+        <img onclick="funcu(1);" class="im" src="./browndust/rosetecake.jpg">
+        <h5>Rosete Cake</h5>  
+        <p>Rs.800/kg</p>
+      </div>
+      <div class="column" id="column-3" data-item="Cakes">
+        <img onclick="funcu(2)" class="im" src="./browndust/nutsdarkchocolate.jpg">
+        <h5>Nutsdarkchocolate</h5>  
+        <p>Rs.800/kg</p>
+      </div>
+      <div class="column" id="column-4" data-item="Jarsbr">
+        <img onclick="funcu(3)" class="im" src="./browndust/browine.jpg">
+        <h5>brownies</h5>  
+        <p>Rs.800/kg</p>
+      </div>
+      <div class="column" id="column-5" data-item="Others">
+        <img onclick="funcu(4)" class="im" src="./browndust/kunafacream.jpg">
+        <h5>kunafacream</h5>  
+        <p>Rs.800/kg</p>
+      </div>
+      <div class="column" id="column-6" data-item="Cakes">
+        <img onclick="funcu(5)" class="im" src="./browndust/beststrawberry.jpg">
+        <h5>beststrawberrycake</h5>  
+        <p>Rs.800/kg</p>
+      </div>
+      <div class="column" id="column-7" data-item="Cakes">
+        <img onclick="funcu(6)" class="im" src="./browndust/chocolatehazelnut1.jpg">
+        <h5>chocolatehazlenut</h5>  
+        <p>Rs.800/kg</p>
+      </div>
+      <div class="column" id="column-8" data-item="Cakes">
+        <img onclick="funcu(7)" class="im" src="./browndust/pistachorose.jpg">
+        <h5>pistachorose</h5>  
+        <p>Rs.800/kg</p>
+      </div>
+      <div class="column" id="column-9" data-item="Cakes">
+        <img onclick="funcu(8)" class="im" src="./browndust/almondpraline.jpg">
+        <h5>almondpraline</h5>  
+        <p>Rs.800/kg</p>
+      </div>
+      <div class="column" id="column-10" data-item="Cakes">
+        <img onclick="funcu(9)" class="im" src="./browndust/darkchocolateandpinata.jpg">
+        <h5>darkchocolateandpinata</h5>  
+        <p>Rs.800/kg</p>
+      </div>
+      <div class="column" id="column-11" data-item="Jarsbr">
+        <img onclick="funcu(10)" class="im" src="./browndust/brownies.jpg">
+        <h5>Brownie</h5>  
+        <p>Rs.800/kg</p>
+      </div>
+      <div class="column" id="column-12" data-item="Cakes">
+        <img onclick="funcu(11)" class="im" src="./browndust/blueberryoverload.jpg">
+        <h5>Blueberry Overload</h5>  
+        <p>Rs.800/kg</p>
+      </div>
+      <div class="column" id="column-13" data-item="Jarsbr">
+        <img onclick="funcu(12)" src="./browndust/milkjar.jpg">
+        <h5>milkjar</h5>  
+        <p>Rs.800/kg</p>
+      </div>
+      <div class="column" id="column-14" data-item="Jarsbr">
+        <img onclick="funcu(13)" src="./browndust/redvelvet.jpg"></a>
+        <h5>Redvelvet Cake Jar</h5>  
+        <p>Rs.800/kg</p>
+      </div>
+      <div class="column" id="column-15" data-item="Jarsbr">
+        <img onclick="funcu(14)" src="./browndust/granola.jpg"></a>
+        <h5>Granola Jar</h5>  
+        <p>Rs.800/kg</p>
+      </div>
+      <div class="column" id="column-16" data-item="Cakes">
+        <img onclick="funcu(15)" src="./browndust/winecake.jpg"></a>
+        <h5>Customisable Chocolate cake</h5>  
+        <p>Rs.800/kg</p>
+      </div>
+      <div class="column" id="column-17" data-item="Cakes">
+        <img onclick="funcu(16)" src="./browndust/chocolatetrufflecake1.jpg"></a>
+        <h5>Chocolate Truffle cake</h5>  
+        <p>Rs.800/kg</p>
+      </div>
+      <div class="column" id="column-18" data-item="Others">
+        <img onclick="funcu(17)" src="./browndust/darkstrawberry2.jpg"></a>
+        <h5>Dark Strawberry</h5>  
+        <p>Rs.800/kg</p>
+      </div>
+
+   </div>
+  </section>
+ <!-- <button type="button" class="back">Back</button>
+  <button type="button" class="next">Next</button>
+    <div class="button">
+        <span>1</span>
+        <span>2</span>
+        <span>3</span>
+        <span>4</span>
+        <span>&#8594;</span>
+    </div>-->
+  </section>
+       
+  
+  <!--single product details-->
+  <!--insert here -->
+
+
+  
+  <!--end of products-->
+
+ <!--about section-->
+ <section id="about">
+   <div class="row">
+      <h1>About Us</h1>
+      <div id="div2">
+         <img src="./browndust/browndusticon.jpeg" >
+         <p>we bake our cakes with atmost care and keep everything well sanitised we ensure our customers has the best we always make and deliver food with love we started our company in 2019 and been successful in satisfying our customers.</p>
+      </div>
+  </div>
+ </section>
+<!-- End About Section -->
+
+
+ <!--footer-->
+ <section id="footer">
+  
+    <div>
+     <h5>All rights reserved for any queries please do contact us through Mail , Facebook , or Whatsapp.                </h5>
+     <a href=""> <i class="fab fa-facebook"></i></a>
+     <a href=""> <i class="fab fa-whatsapp"></i></a>
+     <a href=""> <i class="far fa-envelope"></i></a>
+    </div>
+   
+ </section>
+ <!-- End Footer -->
+
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+ <script src="browndust.js"></script>
+</body>
+</html>
